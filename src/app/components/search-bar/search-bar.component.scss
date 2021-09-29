@@ -1,8 +1,8 @@
 .search {
     &-container {
         width: 100%;
-        height: 60px;
-        background-color: #323a45;
+        height: 70px;
+        background-color: #253f99;
         display: flex;
         justify-content: flex-start;
         align-items: center;
@@ -19,11 +19,11 @@
     }
 
     &-input {
-        margin-left: 10px;
+        margin-left: 20px;
         padding: 10px;
-        width: 300px;
-        border-top-left-radius: 5px;
-        border-bottom-left-radius: 5px;
+        width: 40vw;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
         outline: none;
         border: none;
     }
@@ -31,28 +31,28 @@
     &-button {
         border: none;
         outline: none;
-        background: #3f51b5;
+        background: #cf0505;
         padding: 10px;
         border-left: 1px solid rgba(0, 0, 0, 0.3);
-        border-top-right-radius: 5px;
-        border-bottom-right-radius: 5px;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
         color: #fff;
-        font-weight: 700;
-        transition-duration: 0.3s;
+        font-weight: 500;
+        transition-duration: 0.6s;
         cursor: pointer;
 
         &:hover {
-            color: #3f51b5;
+            color: #cf0505;
             background-color: #fff;
-            border: 1px solid #3f51b5;
+            border: 1px solid #cf0505;
         }
     }
 }
 
 .logo {
-    margin-left: 10px;
+    margin-left: 20px;
     color: #fff;
-    font-weight: 700;
+    font-weight: 900;
     cursor: pointer;
     text-decoration: none;
 }

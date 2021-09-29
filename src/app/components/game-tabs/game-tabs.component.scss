@@ -2,7 +2,7 @@
 
 .game {
     &-tabs {
-        background: rgb(63 81 181 / 61%);
+        background: rgb(100 152 44 / 61%);
         color: #fff;
         text-align: left;
         padding: 10px;
@@ -32,10 +32,10 @@
 
     &-votes {
         &-up {
-            color: #5ee432;
+            color: #42e30c;
         }
         &-down {
-            color: #ef4655;
+            color: #cb0b1b;
         }
         &-count {
             margin-left: 5px;

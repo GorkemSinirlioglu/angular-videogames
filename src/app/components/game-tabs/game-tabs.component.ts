@@ -1,4 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
+import { Game } from 'src/app/models';
 
 @Component({
   selector: 'app-game-tabs',
@@ -7,7 +8,7 @@ import { Component, Input, OnInit } from '@angular/core';
 })
 export class GameTabsComponent implements OnInit {
 
-  @Input() game: Game;
+  @Input() game!: Game;
   
   constructor() { }
 
